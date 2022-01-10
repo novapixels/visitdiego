@@ -1,0 +1,20 @@
+.btn {
+  border-radius: 24px;
+}
+.btn-custom-black {
+  background-color: $black;
+  color: $light;
+  &:hover {
+    color: $beige;
+  }
+}
+
+.btn-custom-orange {
+  background-color: $orange;
+  color: $black;
+  box-shadow: solid 1.5px $orange;
+  &:hover {
+    color: $black;
+    transform: translate(5px, -5px);
+  }
+}

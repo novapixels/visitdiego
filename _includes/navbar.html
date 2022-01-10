@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-custom">
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Navbar scroll</a>
+    <a class="navbar-brand" href="/"><img src="/assets/img/logo-visit-diego-dark.png" alt="Logo black"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,7 +9,7 @@
         {% assign mypages = site.pages | sort: "order" %}
           {% for page in mypages %}
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+              <a class="nav-link {% if item.url == page.url %}active focus{% endif %}" aria-current="page" href="{{ page.url | absolute_url }}">{{ page.title }}</a>
             </li>
           {% endfor %}
         <!-- <li class="nav-item">
@@ -20,7 +20,7 @@
         </li> -->
       </ul>
       <div class="d-flex">
-        <button class="btn btn-outline-success">Join us</button>
+        <button class="btn btn-custom-black">Join our community</button>
       </div>
     </div>
   </div>

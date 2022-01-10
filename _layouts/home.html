@@ -1,10 +1,36 @@
+{% include head.html %}
+<main class="container">
+{% include navbar.html %}
+  <section class="position-relative overflow-hidden pt-5 pt-lg-3">
+	<!-- Content START -->
+	<div class="container">
+		<!-- Title -->
+		<div class="row align-items-center g-5">
+			<!-- Left content START -->
+			<div class="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-5 mb-sm-0">
+				<!-- Title -->
+				<h1 class="mb-0 display-6">Welcome to Diego</h1>
+        <!-- Content -->
+				<p class="my-4 lead">Visit Diego is a collaborative media created by locals for an international audience or travelers, experience seekers and readers.</p>
+				<div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start">
+					<!-- Button -->
+					<a href="#" class="btn btn-custom-orange">Collaborate with us</a>
+				</div>
+			</div>
+			<!-- Left content END -->
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
-      <h1 class="display-4 fw-normal">Punny headline</h1>
-      <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-      <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-    </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-  </div>
+			<!-- Right content START -->
+			<div class="col-lg-7 col-xl-6 text-center position-relative">
+				<!-- Image -->
+				<div class="position-relative">
+					<img class="custom-img" src="/assets/img/visit-diego-1.jpg" alt="Visit Diego Suarez Antsiranana Madagascar" height="450px">
+				</div>
+			</div>
+			<!-- Right content END -->
+		</div>
+	</div>
+	<!-- Content END -->
+{{ content }}
+{% include body-end.html %}
+{% include footer.html %}
+</main>

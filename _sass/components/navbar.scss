@@ -1,7 +1,17 @@
 
-.navbar-custom {
-  border-radius: 8px;
-  background-color: #262626;
-  color: #F7F1EA;
-  marging: 16px;
+// .navbar-custom {
+//   border-radius: 8px;
+//   background-color: #262626;
+//   color: #F7F1EA;
+//   marging: 16px;
+// }
+
+.navbar-brand > img { // logo
+  height: 1em;
+}
+.navbar {
+  border-bottom: solid 2px #262626;
+}
+.active, .focus{
+  border-bottom: solid 5px #262626;
 }

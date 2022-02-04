@@ -1,4 +1,15 @@
 .custom-img {
   border: solid 2px $black;
   border-radius: 16px;
+  width: 100%;
+  object-fit: cover;
+}
+ img.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+ }
+.avatar-text {
+  font-size: 0.9em;
 }

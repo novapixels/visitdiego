@@ -1,0 +1,12 @@
+.form-control {
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: solid #000 3px;
+  :target {
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: solid #000 3px;
+  }
+}

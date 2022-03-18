@@ -1,19 +1,33 @@
-.cards-simple-text > .card {
-  max-width: 18rem;
+.card {
   background-color: $light;
   border-radius: 16px;
   border: solid 2px $black;
-}
-.cards-simple-text > .card > .card-body {
   padding: 28px 14px;
 }
+
+@media (min-width: 768px) {
+  .d-grid {
+    grid-template-columns: repeat(3, 1fr);
+    // gap: 20px 10px;
+  }
+}
+
+.card:hover {
+  background-color: $beige;
+}
+
 .inner-card-line {
   height: 2px;
   width: 100%;
   background-color: $black;
 }
+
 .card-highlight-wide {
-  padding: 28px 14px;
+  padding: 28px 0;
   background-color: $beige;
   border-radius: 16px;
+}
+
+.avatar-text {
+
 }

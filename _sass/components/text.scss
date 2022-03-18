@@ -1,0 +1,8 @@
+.spaced-list > li {
+  font-size: 20px;
+
+}
+.spaced-list {
+  display: grid;
+  row-gap: 16px;
+}
